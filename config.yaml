@@ -1,0 +1,26 @@
+data_config:
+  path: "https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/the-verdict.txt"
+  block_size: 1024
+  stride: 128
+  train_split: 0.9
+mininGPT:
+  n_layers: 12
+  n_heads: 8
+  n_embd: 768
+trainer_config:
+  max_epochs: 100
+  max_norms: 1.0
+  save_every: 10
+  checkpoint_path: 'checkpoint.pt'
+  use_amp: True
+  num_loaders: 4
+  batch_size: 2
+
+optimizer_config:
+  weight_decay: 0.1
+  learning_rate: 0.003
+  betas: (0.9,0.98)
+
+hydra:
+  run:
+    dir: ./
