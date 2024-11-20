@@ -16,10 +16,10 @@ DATGPT 1.5 is a mini language model built based on the nGPT: Normalized Transfor
 Current Configuration
 The model is initialized with the following settings (modifiable via config.yaml):
 
-Layers: 12
-Heads: 8
-Embedding Dimensions: 768
-Tokenizer: GPT-2
+Layers: 12  
+Heads: 8   
+Embedding Dimensions: 768  
+Tokenizer: GPT-2  
 # How to Train
 To train the model, run the following command:
 ```
