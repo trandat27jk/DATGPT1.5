@@ -34,6 +34,6 @@ mininGPT:
   n_embd: <embedding_dimension>
 ```
 # Future Improvements
-+) FineWeb Dataset: Transitioning to training on the large-scale FineWeb dataset.
-+) Gradient Accumulation: Plan to add gradient accumulation for better optimization and handling larger batch sizes.
-+) Fine-Tuning: Fine-tune on domain-specific datasets for specialized tasks.
++) FineWeb Dataset: Transitioning to training on the large-scale FineWeb dataset.  
++) Gradient Accumulation: Plan to add gradient accumulation for better optimization and handling larger batch sizes.  
++) Fine-Tuning: Fine-tune on domain-specific datasets for specialized tasks.  
