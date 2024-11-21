@@ -23,7 +23,7 @@ Tokenizer: GPT-2
 # How to Train
 To train the model, run the following command:
 ```
-python main.py
+torchrun --standalone --nproc_per_node=1 main.py
 ```
 #Customization
 Modify the model architecture or tokenizer by updating the config.yaml file with your desired settings:
