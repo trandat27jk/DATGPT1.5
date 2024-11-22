@@ -1,5 +1,6 @@
 # DATGPT 1.5: A GPT Model with Normalized Transformer Architecture
 ![DATGPT 1 5](https://github.com/user-attachments/assets/b9c92bdf-e851-4041-a08c-abbfc7d9fa76)
+Not yet upgraded full version
 
 DATGPT 1.5 is a mini language model built based on the nGPT: Normalized Transformer with Representation Learning on the Hypersphere paper https://arxiv.org/abs/2410.01131. This model leverages advanced normalization techniques and hypersphere-based representation learning to enhance performance across diverse NLP tasks. It is a central component of my graduation thesis, demonstrating the application of innovative transformer architectures.
 
